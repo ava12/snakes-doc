@@ -1,0 +1,21 @@
+4: 4! * 3^4 = 24 * 81 = 2025 - 81 = 1925 + 19 = 1944
+3: 4! * 3^3 = 24 * 27 = 675 - 27 = 648
+2: 3 * 4 * 3^2 = 4 * 27 = 108
+1: 4 * 3 = 12
+
+0 - 1943: 4
+1944 - 2591: 3
+2592 - 2699: 2
+2600 - 2611: 1
+
+12b
+debug: 4 + 3 = 7b
+
+debug:
+6..3 map number (1..9)
+2    0: no reflection, 1: reflect by original vertical axis
+1..0 rotation: 00: original, 01: right (CW), 10: upside down, 11: left (CCW)
+
+or:
+6..2 00000
+1..0 reason: 00: eaten, 01: no moves, 10: single move, 11: no map found
